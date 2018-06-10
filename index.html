@@ -3,13 +3,22 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Sample</title>
+  <title>Electron_api_connect</title>
 </head>
 
 <body>
-  <p>Hello electron_api_connect</p>
-  <div id="answer">変更前</div>
   <script type="text/javascript" src="renderer.js"></script>
+  <p>Hello electron_api_connect</p>
+  <div id="step1">step1 変更前</div>
+  <script type="text/javascript" src="renderer_step1.js"></script>
+    <p>郵便番号：
+      <input id="zipcode" type="text">
+    </p>
+  <button onclick="set_step2()">住所情報取得</button>
+  <div id="step2"></div>
+  <div id="step3"></div>
+  <div id="step4"></div>
+
 </body>
 
 </html>
