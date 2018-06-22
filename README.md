@@ -1,10 +1,10 @@
 # Electron_api_connect
 
-## 1st step
+## 1st step complete
 
 * set simple data from javascript to html
 
-## 2nd step
+## 2nd step complete
 
 * simple api data from javascript to html
 
